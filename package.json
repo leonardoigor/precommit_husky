@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lintcheck": "eslint ./src --ext .js"
   },
   "repository": {
     "type": "git",
