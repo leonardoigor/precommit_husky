@@ -4,8 +4,8 @@ const obk={
 
 
 
+'a':'s'
 
 
 
-    
 }
