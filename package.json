@@ -4,21 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install",
     "lint": "prettier --check .",
-    "format": "prettier --write ."
-
-
-
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit":"yarn format"
 
-
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leonardoigor/precommit_husky.git"
@@ -31,7 +21,7 @@
   },
   "homepage": "https://github.com/leonardoigor/precommit_husky#readme",
   "devDependencies": {
-    "husky": "^6.0.0",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "husky": "^6.0.0"
   }
 }
