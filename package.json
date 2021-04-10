@@ -8,7 +8,6 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leonardoigor/precommit_husky.git"
