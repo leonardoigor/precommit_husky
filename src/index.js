@@ -1,6 +1,7 @@
-console.log("teste husky");
+// console.log("teste husky");
 
 const obk = {
   a: "s",
 };
-console.log(obk);
+obk;
+// console.log(obk);
